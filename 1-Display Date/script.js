@@ -10,3 +10,4 @@ console.log(`Today is: ${days[date.getDay()]}.`);
 console.log(`Current time is: ${date.getHours()} ${half} : ${date.getMinutes()} : ${date.getSeconds()}`);
 document.getElementsByTagName("div")[0].innerHTML = `Today is: ${days[date.getDay()]}.`;
 document.getElementsByTagName("div")[1].innerHTML = `Current time is: ${date.getHours()} ${half} : ${date.getMinutes()} : ${date.getSeconds()}`;
+// how to make this more replicatable?  Generate divs?  Better solution than innerHTMLing?  Better ways to format date function?  Better array?  AM PM?
