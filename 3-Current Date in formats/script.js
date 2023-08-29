@@ -1,4 +1,4 @@
-const date = new Date().toLocaleString('en-GB');
+const date = new Date();
 console.log(date);
-const dateother = new Date().toLocaleString('en-GB', {dateStyle: 'full', timeStyle: 'full'});
-console.log(dateother);
+let createButton = document.createElement("div");
+document.getElementById("thing").after(createButton);
